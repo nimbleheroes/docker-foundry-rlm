@@ -1,0 +1,2 @@
+docker run -p 5053:5053 -p 5054:5054 -p 4101:4101 --mac-address 02:30:d0:c1:b7:c6 --hostname ip-10-0-2-49 -v /opt/foundry-rlm/lics/:/opt/rlm/licenses -i -t tokejepsen/docker-foundry-rlm:latest 
+
